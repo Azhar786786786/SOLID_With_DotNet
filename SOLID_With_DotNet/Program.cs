@@ -32,15 +32,23 @@ namespace SOLID_With_DotNet
             //polymorphismClass.
             Console.WriteLine("============================================================");
             Person person = new Person();
+            person.Name = "Added Person";
+            person.InsertedOn = new DateTime(2025, 11, 26);
             person.DoWokr();
 
             Person eng = new Engineer();
+            eng.Name = "Added Engineer";
+            eng.InsertedOn = new DateTime(2025, 11, 26);
             eng.DoWokr();
 
             Person test = new Tester();
+            test.Name = "Added Tester";
+            test.InsertedOn = new DateTime(2025, 11, 26);
             test.DoWokr();
 
             Person oth = new Other();
+            oth.Name = "Added Other";
+            oth.InsertedOn = new DateTime(2025, 11, 26);
             oth.DoWokr();
             //Polymorphism end here
 
