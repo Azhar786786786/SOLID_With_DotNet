@@ -52,6 +52,14 @@ namespace SOLID_With_DotNet
             oth.DoWokr();
             //Polymorphism end here
 
+            //Student Dependency Inversion
+            StudentBusinessLayerLogic studentBusinessLayerLogic = new StudentBusinessLayerLogic();
+            Student student = studentBusinessLayerLogic.GetStudentDetails(101);
+            Console.WriteLine($"ID : { student.ID}, " +
+                $"Name : {student.Name}, " +
+                $"Class : {student.Class}, " +
+                $"Result : {student.Result}");
+
             Console.Read();
         }
     }

@@ -45,6 +45,11 @@
   <ItemGroup>
     <Compile Include="AllClasses\Employee.cs" />
     <Compile Include="AllClasses\PolymorphismClass.cs" />
+    <Compile Include="AllClasses\Student.cs" />
+    <Compile Include="AllClasses\StudentBusinessLayerLogic.cs" />
+    <Compile Include="AllClasses\StudentDataAccessLayerFactory.cs" />
+    <Compile Include="AllClasses\StudentDataAccessLayerLogic.cs" />
+    <Compile Include="AllInterfaces\IStudentDataAccessLayerLogic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
